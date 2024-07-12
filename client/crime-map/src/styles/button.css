@@ -1,0 +1,23 @@
+button {
+  background-color: var(--background-color);
+  color: var(--secondary-text);
+  padding: 12px 20px;
+  border-radius: 5px;
+  border: 2px solid var(--accent);
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  background-color: var(--accent);
+  color: var(--primary-text);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.right-button {
+  margin-left: 15px;
+}

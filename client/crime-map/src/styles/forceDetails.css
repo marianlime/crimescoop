@@ -1,0 +1,8 @@
+.force-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1200px;
+  align-items: center;
+  margin: auto;
+}
